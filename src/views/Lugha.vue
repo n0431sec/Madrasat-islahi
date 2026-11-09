@@ -1,6 +1,6 @@
 <template>
     <div class="lugha">
-     <iframe src="https://www.madinaharabic.com/arabic-language-course/lessons/">
+     <iframe src="https://learning.aljazeera.net/">
  
  </iframe>
     </div>
