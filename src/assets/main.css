@@ -1,0 +1,228 @@
+@import './base.css';
+/* <uniquifier> Use a unique and descriptive class name */
+ /* <weight> Use a value from 100 to 900 */
+
+
+#app {
+  font-weight: normal;
+  min-height: 100vh;
+}
+
+.noto-sans-arabic-quran {
+ font-size: 1.2rem;
+}
+
+
+.quran ,.hadith ,.lugha{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center; /* Center the iframe vertically */
+  width: 100%;
+  height: calc(100vh - 86px); /* Use viewport height */
+}
+
+
+iframe {
+  width: 100%;
+  min-height: 100% !important;
+  border: 0;
+  padding:0;
+  margin: 0;
+  color: #F7931D !important;
+}
+
+.y-video > iframe{
+  border-radius: 12px !important;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.quran iframe .NavbarBody_itemsContainer__Jvm3k{
+  display: none !important;
+}
+
+.wrapper {
+  min-height: 100%;
+  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+ .wrapper .home-view{
+  max-width: 1280px;
+  min-height: 100%;
+}
+
+a,
+.green {
+  text-decoration: none;
+  transition: 0.4s;
+  padding: 3px;
+}
+
+p{
+  font-size: clamp(14px,1rem,1.2rem);
+}
+
+.sehem-kuras::-webkit-scrollbar{
+  background-color: var(--nav-act-col);
+  width: 5px;
+  height: 5px;
+}
+
+#app::-webkit-scrollbar-thumb{
+  cursor: pointer;
+  background-color: #F7931D;
+}
+.number-circle{
+  color: #F7931D;
+  padding: 5px;
+  border-radius: 50%;
+  direction: rtl;
+}
+
+/* swipper */
+
+.image-container span.swiper-pagination-bullet {
+  width: var(--swiper-pagination-bullet-width);
+  height: var(--swiper-pagination-bullet-height);
+  border-radius: var(--swiper-pagination-bullet-border-radius);
+  background: var(--swiper-pagination-bullet-inactive-color);
+  opacity: 1;
+}
+ 
+.image-container span.swiper-pagination-bullet-active {
+  border-radius: var(--pagination-bullet-active-width-br);
+  width: var(--swiper-pagination-bullet-active-width);
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: var(--swiper-pagination-color, var(--swiper-theme-color));
+}
+
+.quran-view{
+ border-top: 10px solid;
+ padding: 1REM 0px;
+ border-bottom: 10px solid;
+ border-image-source:-webkit-linear-gradient(330deg ,var(--nav-act-col),var(--color-text),var(--nav-act-col));
+ border-image-slice: 1;
+}
+.ayah{
+padding: 10px;
+}
+
+.surah-page{
+  font-size: 1.2rem;
+}
+
+.heading{
+  display: flex;
+  place-content: space-around;
+  font-size: 1.2rem;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.heading-eng{
+  display: flex;
+  place-content: center;
+  font-size: 1.2rem;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.edition div{
+  text-align: center;
+  font-size: 1.2rem;
+}
+.error-occur{
+  color: #ff0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.sehem-kuras{
+  width: 100%;
+  padding: 1rem;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  max-height: 100%;
+}
+
+/* class bismillah */
+.bismillah{
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+/*  */
+.section-header{
+  font-size: clamp(1rem,1.5rem,2rem);
+  font-weight: clamp(300,500,600);
+  padding: 20px 0;
+}
+
+/*  */
+.video-container{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  width: 100%;
+  max-height: 400px;
+}
+.video-container.image-container .y-video{
+  border-radius: 7px;
+}
+
+.image-container{
+  background-image: url(/Islahi-Logo.png);
+  width: 100%;
+}
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(180, 1%, 65%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+ 
+  #app{
+    min-width: 100%;
+  }
+
+  .video-container{
+    padding: 1rem 2rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  
+.surah-page{
+  font-size: 2rem;
+
+}
+.bismillah{
+  font-size: 2rem;
+}
+.noto-sans-arabic-quran{
+  font-size: 2rem;
+}
+}
+
+@media (min-width: 1980px) {
+ 
+    .surah-page{
+    font-size: 2.5rem;
+  
+  }
+
+}
+
+/*  */
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+ bottom: 4px !important;
+}
