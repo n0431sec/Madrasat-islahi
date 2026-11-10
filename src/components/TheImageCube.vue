@@ -43,7 +43,7 @@ export default {
     class="mySwiper"
   >
     <swiper-slide>
-      <the-image-card pichaSource="/img/Library1.jpg" text="Maktaba ya yetu ikiwa na vitabu mbalimbali"/>
+      <the-image-card pichaSource="/img/Library1.jpg" text="Maktaba yetu ikiwa na vitabu mbalimbali"/>
     </swiper-slide>
 
     <!-- 2 -->
