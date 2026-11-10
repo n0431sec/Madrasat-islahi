@@ -43,7 +43,7 @@ const isMobile = computed(() => screenWidth.value < 660);
         <nav v-else class="drop-down" :class="is_open ? 'drop-down-now' : ''">
           <div class="heading-part">
           <img class="header-img" src="/src/Img/Islahi-Logo.png">
-          <h3 id="madrasah-name">Madrasah Islahi</h3>
+          <h3 id="madrasah-name">Madrasat Islahi</h3>
           <icon-menu v-if="isMobile" />
           <img v-else class="logo" src="/Islahi-Logo.png" alt="">
         </div>
