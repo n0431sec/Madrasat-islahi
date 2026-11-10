@@ -37,7 +37,7 @@ const isMobile = computed(() => screenWidth.value < 660);
           <RouterLink to="/quran">Qur'aan</RouterLink>
           <RouterLink to="/hadith">Hadith</RouterLink>
           <RouterLink to="/fiqhi">Fiqhi</RouterLink>
-          <RouterLink to="/lugha">Lugha</RouterLink> 
+          <RouterLink to="/lugha">Lughatul Arabia</RouterLink> 
           <RouterLink to="/about">About Us</RouterLink> 
         </nav>
         <nav v-else class="drop-down" :class="is_open ? 'drop-down-now' : ''">
@@ -52,7 +52,7 @@ const isMobile = computed(() => screenWidth.value < 660);
           <RouterLink @click="is_open = !is_open"  to="/about">About Us</RouterLink>
           <RouterLink @click="is_open = !is_open"  to="/quran">Qur'aan</RouterLink>
           <RouterLink @click="is_open = !is_open"  to="/hadith">Hadith</RouterLink>
-          <RouterLink @click="is_open = !is_open"  to="/lugha">Lugha</RouterLink>
+          <RouterLink @click="is_open = !is_open"  to="/lugha">Lughatul Arabia</RouterLink>
           <RouterLink @click="is_open = !is_open"  to="/fiqhi">Fiqhi</RouterLink>
           <!--RouterLink to="/tawheed">Tawheed</RouterLink>
           <RouterLink to="/more">More</RouterLink> -->

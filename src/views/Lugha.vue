@@ -28,7 +28,7 @@ window.addEventListener('load',()=>{
 })
 </script>
 <template>
- <div class="quran">
+ <div class="lugha">
   <iframe src="https://learning.aljazeera.net/" allowfullscreen></iframe>
  </div>
  
