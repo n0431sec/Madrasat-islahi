@@ -1,3 +1,83 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Homepage -->
+    <url>
+        <loc>https://n0431sec.dpdns.org/</loc>
+    </url>
+
+    <!-- Main learning pages -->
+    <url>
+        <loc>https://n0431sec.dpdns.org/quran</loc>
+    </url>
+    <url>
+        <loc>https://n0431sec.dpdns.org/hadith</loc>
+    </url>
+    <url>
+        <loc>https://n0431sec.dpdns.org/fiqhi</loc>
+    </url>
+    <url>
+        <loc>https://n0431sec.dpdns.org/lugha</loc>
+    </url>
+    <url>
+        <loc>https://n0431sec.dpdns.org/more</loc>
+    </url>
+    <url>
+        <loc>https://n0431sec.dpdns.org/about</loc>
+    </url>
+
+    <!-- Qur'an Surah pages -->
+    <url>
+        <loc>https://n0431sec.dpdns.org/quran/Al-Fatihah</loc>
+    </url>
+    <url>
+        <loc>https://n0431sec.dpdns.org/quran/Al-Baqarah</loc>
+    </url>
+    <url>
+        <loc>https://n0431sec.dpdns.org/quran/Al-Imraan</loc>
+    </url>
+    <url>
+        <loc>https://n0431sec.dpdns.org/quran/Al-Nisaa</loc>
+    </url>
+    <url>
+        <loc>https://n0431sec.dpdns.org/quran/Al-Maida</loc>
+    </url>
+    <url>
+        <loc>https://n0431sec.dpdns.org/quran/Al-Anaam</loc>
+    </url>
+    <url>
+        <loc>https://n0431sec.dpdns.org/quran/Al-Araaf</loc>
+    </url>
+    <url>
+        <loc>https://n0431sec.dpdns.org/quran/Al-Anfaal</loc>
+    </url>
+    <url>
+        <loc>https://n0431sec.dpdns.org/quran/Tawba</loc>
+    </url>
+    <url>
+        <loc>https://n0431sec.dpdns.org/quran/Yuunus</loc>
+    </url>
+    <url>
+        <loc>https://n0431sec.dpdns.org/quran/Huud</loc>
+    </url>
+    <url>
+        <loc>https://n0431sec.dpdns.org/quran/Yusuf</loc>
+    </url>
+    <url>
+        <loc>https://n0431sec.dpdns.org/quran/Al-Raad</loc>
+    </url>
+    <url>
+        <loc>https://n0431sec.dpdns.org/quran/Ibrahim</loc>
+    </url>
+    <url>
+        <loc>https://n0431sec.dpdns.org/quran/Al-Hijri</loc>
+    </url>
+    <url>
+        <loc>https://n0431sec.dpdns.org/quran/An%20Nahl</loc>
+    </url>
+
+</urlset>
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
